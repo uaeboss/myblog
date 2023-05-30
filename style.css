@@ -107,11 +107,12 @@ img {
   -webkit-animation: pulsate 5s ease-out;
   -webkit-animation-iteration-count: infinite;
   display: inline-block;
-  transition: 2s;
+  transition: 0s;
 }
 
 .cat:hover {
   filter: drop-shadow(0 0 15px #000);
+  animation: none;
   opacity: 1;
 }
 
