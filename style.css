@@ -441,7 +441,7 @@ h2 {
   }
   .container {
     grid-template-columns: 0.5fr 1fr 0.5fr;
-    grid-template-rows: 0.33fr 0.09fr 1.4fr 0.5fr 0.6fr 0.5fr;
+    grid-template-rows: 0.25fr 0.09fr 1.4fr 0.5fr 0.6fr 0.5fr;
     grid-template-areas:
       ". logo ."
       ".  nav ."
@@ -470,7 +470,7 @@ h2 {
   }
   .container {
     grid-template-columns: 0.5fr 1fr 0.5fr;
-    grid-template-rows: 0.11fr 0.08fr 1.4fr 0.5fr 0.6fr 0.5fr;
+    grid-template-rows: 0.11fr 0.055fr 1.3fr 0.5fr 0.6fr 0.5fr;
     grid-template-areas:
       ". logo ."
       ".  nav ."
@@ -543,5 +543,10 @@ h2 {
     flex-wrap: wrap;
     padding: 10px;
     padding-right: 0;
+  }
+  #catblack {
+    width: 100px;
+    height: auto;
+    filter: drop-shadow(0 0 2px #1b1b1b);
   }
 }
